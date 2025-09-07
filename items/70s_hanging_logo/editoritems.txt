@@ -2,18 +2,18 @@
 "Item"
 {
 	"ItemClass"	"ItemBase"
-	"Type"	"RESPAWNING_ANTIQUE_CUBE"
+	"Type"	"70S_HANGING_LOGO"
 	"Editor"
 	{
 		 
 		"SubType"
 		{
-			"Name"				"Respawning Antique Cube"
-			"Model" { "ModelName"		"cube.3ds" }
+			"Name"				"70's Hanging Logo"
+			"Model" { "ModelName"		"sentry.3ds" }
 			"Palette"
 			{
-				"Tooltip"		"RESPAWNING ANTIQUE CUBE"
-				"Image"			"palette/beepkg/respawning_antique_cube.png"
+				"Tooltip"		"70'S HANGING LOGO"
+				"Image"			"palette/beepkg/70s_hanging_logo.png"
 				"Position"		"4 2 0"
 			}
 			"Sounds"
@@ -32,7 +32,7 @@
 		}
 		
 		"MovementHandle"	"HANDLE_4_DIRECTIONS"
-		"InvalidSurface" 	""
+		"InvalidSurface" 	"FLOOR WALL "
 		"DesiredFacing"		"DESIRES_ANYTHING"
 		"CanAnchorOnGoo"	"0"
 		"CanAnchorOnBarriers"	"0"
@@ -60,48 +60,66 @@
 		{
 			"0"
 			{
-				"Name" "instances/BEE2/beepkg/respawning_antique_cube/respawning_antique_cube_0.vmf"
+				"Name" "instances/BEE2/beepkg/70s_hanging_logo/70s_hanging_logo_0.vmf"
 				"EntityCount"	"0"
 				"BrushCount"	"0" 
 				"BrushSideCount"	"0"
 			}
 			"1"
 			{
-				"Name" "instances/BEE2/beepkg/respawning_antique_cube/respawning_antique_cube_1.vmf"
+				"Name" "instances/BEE2/beepkg/70s_hanging_logo/70s_hanging_logo_1.vmf"
 				"EntityCount"	"0"
 				"BrushCount"	"0" 
 				"BrushSideCount"	"0"
 			}
 			"2"
 			{
-				"Name" "instances/BEE2/beepkg/respawning_antique_cube/respawning_antique_cube_2.vmf"
+				"Name" "instances/BEE2/beepkg/70s_hanging_logo/70s_hanging_logo_2.vmf"
 				"EntityCount"	"0"
 				"BrushCount"	"0" 
 				"BrushSideCount"	"0"
 			}
 			"3"
 			{
-				"Name" "instances/BEE2/beepkg/respawning_antique_cube/respawning_antique_cube_3.vmf"
+				"Name" "instances/BEE2/beepkg/70s_hanging_logo/70s_hanging_logo_3.vmf"
 				"EntityCount"	"0"
 				"BrushCount"	"0" 
 				"BrushSideCount"	"0"
 			}
 			"4"
 			{
-				"Name" "instances/BEE2/beepkg/respawning_antique_cube/respawning_antique_cube_4.vmf"
+				"Name" "instances/BEE2/beepkg/70s_hanging_logo/70s_hanging_logo_4.vmf"
 				"EntityCount"	"0"
 				"BrushCount"	"0" 
 				"BrushSideCount"	"0"
 			}
 			"5"
 			{
-				"Name" "instances/BEE2/beepkg/respawning_antique_cube/respawning_antique_cube_5.vmf"
+				"Name" "instances/BEE2/beepkg/70s_hanging_logo/70s_hanging_logo_5.vmf"
 				"EntityCount"	"0"
 				"BrushCount"	"0" 
 				"BrushSideCount"	"0"
 			}
 		}
 
+		"OccupiedVoxels"
+		{
+			"Voxel"
+			{
+				"Pos"		"0 0 0"
+				"Surface"
+				{
+					"Normal"	"0 0 1"
+				}
+			}
+		}
+		"EmbeddedVoxels"
+		{
+			"Voxel"
+			{
+				"Pos"		"0 0 0"
+			}
+		}
 		"ConnectionPoints"
 		{
 			// left
